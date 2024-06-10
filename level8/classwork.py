@@ -7,5 +7,3 @@ print(age >= 18 and age <= 25)
 bugget = int(input("please enter youre bugget"))
 print(bugget > 50 or bugget > 100)
 
-for i in range(5):
-    print("rati shavadze")
