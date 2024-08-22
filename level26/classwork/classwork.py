@@ -1,7 +1,21 @@
-def filter_even_numbers(numbers):
-    even_numbers = [num for num in numbers if num % 2 == 0]
-    return even_numbers
+text = "hello world"
+count_l = text.count("l")
+print(count_l)
 
-list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-filtered_list = filter_even_numbers(list)
-print(filtered_list)
+
+text = "hello world"
+title_text = text.title()
+print(title_text)
+
+
+text = "hello world"
+upper_text = text.upper()
+print(upper_text)
+
+text = "hello world"
+upper_text = text.upper()
+print(upper_text)
+
+text = "hello world"
+capitalized_text = text.capitalize()
+print(capitalized_text)

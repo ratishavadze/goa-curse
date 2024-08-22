@@ -6,3 +6,6 @@ def manual_count(count_char, symbol):
             count += 1
     
     return count
+
+
+

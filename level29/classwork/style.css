@@ -1,0 +1,44 @@
+a:link {
+    background-color: azure;
+}
+
+a:active {
+    background-color: blueviolet;
+}
+
+a:hower{
+    background-color: rgb(189, 189, 110);
+}
+
+a:visited {
+    background-color:yellowgreen ;
+}
+
+
+tr:nth-child(even) {
+    background-color: aqua;
+}
+ 
+table {
+    border-collapse: collapse;
+}
+
+table {
+    border: 0cqw;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(99, 11, 97);
+}
+
+tr:nth-child(even):hover {
+    color:rgb(135, 23, 55);
+}
+
+tr:nth-child(odd):hover {
+    color:rgb(135, 23, 55);
+}
+
+ 
+
+
