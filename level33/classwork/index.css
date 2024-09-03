@@ -1,0 +1,50 @@
+/* div { 
+    height: 500;
+    width: 400;
+    border: 3px solid;
+    position: static;
+    background-color: aqua;
+    color: purple;
+}
+
+div:nth-child(2) {
+    background-color: rgb(99, 23, 23);
+    color: greenyellow;
+    position: relative;
+    left: 300px;
+    top: 50px;
+}
+    */
+body {
+    height: 100%;
+    width: 100%;
+}
+
+button {
+    position: relative;
+    width: 50px;
+    height: 50;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(145, 161, 174);
+    color:black;
+    border: none;
+    border-radius: 50%;
+
+
+}
+
+span {
+    background-color: rgb(70, 65, 58);
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    right: 0px;
+    top: 0px;
+
+}
