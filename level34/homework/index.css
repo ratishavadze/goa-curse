@@ -1,0 +1,30 @@
+.animated-div {
+    width: 100px;
+    background-color: red;
+    height: 50px;
+    animation: colorAndHeight 10s infinite;
+    animation-delay: 5s;
+}
+
+@keyframes colorAndHeight {
+    0% {
+        background-color: red;
+        height: 50px;
+    }
+    25% {
+        background-color: blue;
+        height: 100px;
+    }
+    50% {
+        background-color: green;
+        height: 150px;
+    }
+    75% {
+        background-color: yellow;
+        height: 200px;
+    }
+    100% {
+        background-color: red;
+        height: 50px;
+    }
+}

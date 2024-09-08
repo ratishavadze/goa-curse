@@ -1,0 +1,20 @@
+.loading-container {
+    width: 300px;
+    height: 20px;
+    border: 2px solid #000000;
+    margin-top: 50px;
+    position: relative;
+  }
+  
+  .loading-bar {
+    width: 0%;
+    height: 100%;
+    background-color: #00bfff;
+    transition: transform 10s linear 3s;
+    transform-origin: left;
+  }
+  
+  .loading-container:hover .loading-bar {
+    transform: scaleX(1);
+  }
+  
