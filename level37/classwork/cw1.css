@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(80, 105, 80);
+  }
+  
+  @media (min-width: 100px) and (max-width: 500px) {
+    body {
+      background-color: green;
+    }
+  }
+  /* min-width aris იდან ხოლო max-width არის მდე ანუ მაქსიდან იწყებს და მინზე მთავრდება
+   */
