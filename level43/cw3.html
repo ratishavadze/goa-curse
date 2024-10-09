@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Resize Example</title>
+</head>
+<body>
+    <h1>მოატარეთ მაუსი სურათზე</h1>
+    <img id="myImage" src="https://via.placeholder.com/300" alt="Placeholder Image" style="width: 300px;">
+
+    <script>
+        const img = document.getElementById("myImage");
+
+        // მაუსის გადატარებისას სურათის ზომის გაზრდა
+        img.addEventListener("mouseover", function() {
+            img.style.width = "400px"; // გაზრდილი ზომა
+            img.style.height = "auto";  // სიმაღლე ავტომატურად
+        });
+
+        // მაუსის მოაშორებისას სურათის ზომის დაბრუნება
+        img.addEventListener("mouseout", function() {
+            img.style.width = "300px"; // პირვანდელი ზომა
+            img.style.height = "auto";  // სიმაღლე ავტომატურად
+        });
+    </script>
+</body>
+</html>
